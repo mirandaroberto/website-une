@@ -4,6 +4,34 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 38px 48px;
+    padding: 12px 100px 12px 48px;
     position: relative;
+   
+}
+
+.list_link {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.list_link a {
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-family: var(--font-main); 
+  transition: color 0.3s ease;
+}
+
+.list_link a:hover {
+  color: var(--color-accent); 
+}
+
+.main .logo .main_img{
+ background-image: url(/IMG/header.jpeg);
+ width: 120px;   
+ height: 100px;   
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ border-radius: 50%;
 }

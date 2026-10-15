@@ -17,6 +17,7 @@
      --text-secondary-color: #ffffff;
      --font-titles: 'IBM Plex Serif', serif;
      --font-body: 'Montserrat', sans-serif;
+     --font-main: 'Fjalla One', sans-serif;
      --titles-weigth: 900;
      --text-weight: 300;
      --menu-text-weigth: 500;
@@ -39,6 +40,8 @@ body{
   font-weight: var(--titles-weigth);
   font-size: 28px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 2px;
 }
 
 .section_title hr {

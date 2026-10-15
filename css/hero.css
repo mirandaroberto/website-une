@@ -13,7 +13,9 @@
   font-size: 18px;
   font-weight: var(--text-weight);
   padding: 16px 24px 88px 24px;
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 550px;
   text-align: center;
   line-height: 1.5;
+  margin-top: -22px;
 }
