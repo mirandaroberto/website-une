@@ -19,13 +19,6 @@
      --menu-text-weigth: 500;
 }
 
-h1 {
-  font-family: var(--font-main);
-  color: var(--text-primary-color);
-  font-weight: var(--titles-weigth);
-  font-size: 28px;
-}
-
 h2{
     font-family: var(--font-main);
     color: var(--text-primary-color);
@@ -33,11 +26,7 @@ h2{
     font-weight: var(--text-weight);
 }
 
-p{
-    font-family: var(--font-main);
-    color: var(--text-primary-color);
-    font-size: var(--text-weight);
-}
+
 
 body{
     background-color: var(--background-primary-color);

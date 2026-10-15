@@ -1,0 +1,9 @@
+.main{
+    background-color: var(--background-secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 48px;
+    position: relative;
+}
